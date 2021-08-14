@@ -26,4 +26,4 @@ app.get("/", async (req, res) => {
 
  res.status(200).send(getRows.data);
 });
-app.listen(5000, (req, res) => console.log("running on 5000"));
+app.listen(process.env.PORT, (req, res) => console.log("running"));
