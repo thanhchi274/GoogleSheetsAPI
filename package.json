@@ -14,7 +14,7 @@
     "googleapis": "^67.1.0"
   },
   "engines": {
-    "yarn": "1.x"
+    "npm": "14.x"
   },
   "devDependencies": {
     "nodemon": "^2.0.12"
