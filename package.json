@@ -13,9 +13,6 @@
     "express": "^4.17.1",
     "googleapis": "^67.1.0"
   },
-  "engines": {
-    "npm": "14.x"
-  },
   "devDependencies": {
     "nodemon": "^2.0.12"
   }
