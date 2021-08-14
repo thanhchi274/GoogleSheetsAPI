@@ -26,4 +26,10 @@ app.get("/", async (req, res) => {
 
  res.status(200).send(getRows.data);
 });
-app.listen(process.env.PORT, (req, res) => console.log("running"));
+app.listen(process.env.PORT || 3000, function () {
+ console.log(
+  "Express server listening on port %d in %s mode",
+  this.address().port,
+  app.settings.env
+ );
+});
